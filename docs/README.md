@@ -8,3 +8,4 @@
 
 [Gcc](./markdown/Gcc.md)
 
+![image-20220126015233626](Photo/image-20220126015233626.png)
