@@ -8,4 +8,4 @@
 
 [Gcc](./markdown/Gcc.md)
 
-![image-20220126015233626](Photo/image-20220126015233626.png)
+![image-20220126015233626](https://s3.bmp.ovh/imgs/2022/01/93560b6df73bbe69.png)
