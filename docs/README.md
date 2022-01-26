@@ -1,24 +1,14 @@
 # All my documents
 
-[CMake简介](./markdown/CMake简介.md)
+## 前端：
 
-[HTML学习](./markdown/HTML学习.md)
-
-[JavaScript](./markdown/JavaScript.md)
-
-[Gcc](./markdown/Gcc.md)
-
-[Git](./markdown/Git.md)
-
-[HTML学习](./markdown/HTML学习.md)
+[HTML](./markdown/HTML学习.md)
 
 [css](./markdown/css.md)
 
-[Linux学习](./markdown/Linux学习.md)
+[JavaScript](./markdown/JavaScript.md)
 
-[Make](./markdown/Make.md)
-
-[MySQL](./markdown/MySQL.md)
+## 后端：
 
 [Nginx](./markdown/Nginx.md)
 
@@ -26,7 +16,27 @@
 
 [Python](./markdown/Python.md)
 
+## 工具：
+
+[Git](./markdown/Git.md)
+
+[CMake](./markdown/CMake简介.md)
+
+[Make](./markdown/Make.md)
+
+## 系统：
+
+[Linux](./markdown/Linux学习.md)
+
+## 核心：
+
+[MySQL](./markdown/MySQL.md)
+
+[Gcc](./markdown/Gcc.md)
+
 [Qt](./markdown/Qt.md)
+
+## 碎片记录：
 
 [Visual Studio快捷键](./markdown/Visual_Studio快捷键.md)
 
@@ -36,4 +46,4 @@
 
 [密钥SSH登录](./markdown/密钥SSH登录.md)
 
-[VScode](./markdown/VScode.md)
+[VScode插件](./markdown/VScode.md)
