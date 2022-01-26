@@ -335,45 +335,45 @@ ssh-keygen -t rsa -C "这里换上你的邮箱"
 3. 创建密码（如果不需要密码则直接回车）；
 4. 确认密码；
 
-![生成秘钥](photo\生成密钥.png)
+![生成秘钥](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261144500.png)
 
 在指定的保存路径下会生成2个名为id_rsa和id_rsa.pub的文件
 
 以文本的方式打开目录下的id_rsa.pub，复制里边的内容
 
-![公钥](photo\公钥.png)
+![公钥](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/%E5%85%AC%E9%92%A5.png)
 
 ### Gitee连接
 
 打开你的Gitee，打开设置
 
-![](photo\gitee设置.png)
+![](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/giteestting.png)
 
 选择SSH公钥
 
-![](photo\GiteeSSH公钥.png)
+![](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/GiteeSSH%E5%85%AC%E9%92%A5.png)
 
 把复制的内容粘贴到公钥内，标题任意起名，确定提交就可以
 
-![](photo\gitee公钥.png)
+![](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/gitee%E5%85%AC%E9%92%A5.png)
 
 ### GitHub连接
 
 打开Github的配置
 
-![](photo\github设置.png)
+![](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/githubstting.png)
 
 选择SSH and GPG keys
 
-![](photo\GithubSSHkeys.png)
+![](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/GithubSSHkeys.png)
 
 点击New SSH key
 
-![](photo\NewSSHkey.png)
+![](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/NewSSHkey.png)
 
 把复制的内容粘贴到Key，Title随意起名，点击ADD SSH key就可以了
 
-![](photo\NewSSH.png)
+![](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/NewSSH.png)
 
 ### 创建仓库
 

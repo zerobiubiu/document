@@ -10,7 +10,7 @@
 
 `g++ --version`
 
-![img](Photo/15961.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/15961.jpg)
 
 因为我已经安装了g++，出现了上面安装的版本号。如果你出现了上面信息，就不需要再安装了，没有的话，用下面的命令即可完成安装。
 
@@ -35,7 +35,7 @@ int main()
 }
 ```
 
-![img](Photo/65083.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/65083.jpg)
 
 测试代码完成后，我们来进行下编译，打开终端，在终端输入g++ 文件名即可，在这个程序中就是下面命令：
 
@@ -45,13 +45,13 @@ int main()
 
 在终端完成上面的命令后，你发现并没有任何输出，但这时候你去主文件夹下（默认主文件夹）看下会发现有个a.out文件
 
-![img](Photo/93033.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/93033.jpg)
 
 现在你再在终端输入下面命令就能看到结果。
 
 `./a.out`
 
-![img](Photo/63995.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/63995.jpg)
 
 接下来我来解释下这个.out文件，实际上这是个经过相应的链接产生的可执行文件。还有个.o文件，它是个中间文件，一般是通过编译的但还未链接。我们通过看看g++在执行编译工作的时候的流程，你就会有更好的理解。如下：
 
@@ -70,11 +70,11 @@ int main()
 
 预处理后的文件在 linux下以.i为后缀名，这个过程是用来激活预处理，执行完命令后，你会发现主文件夹下多了一个test.i文件
 
-![img](Photo/62729.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/62729.jpg)
 
 这一步（预处理）主要做了宏的替换，和注释的消除。
 
-![img](Photo/34183.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/34183.jpg)
 
 上图是test.i文件的最后部分，可以看见宏的替换和注释的消除。
 
@@ -86,7 +86,7 @@ int main()
 
 这一步主要就是生成test.s文件，.s文件表示汇编文件，用编辑器打开就都是汇编指令。下图是test.s文件的一部分。
 
-![img](Photo/78931.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/78931.jpg)
 
 #### 3.将汇编语言变为目标代码(机器代码)
 
@@ -96,7 +96,7 @@ int main()
 
 这一步就是生成目标文件，用编辑器打开就都是二进制机器码。
 
-![img](Photo/32108.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/32108.jpg)
 
 #### 4.链接目标代码，生成可执行程序
 
@@ -106,11 +106,11 @@ int main()
 
 在这一步中生成的可执行程序名为test，如果执行命令 g++ test.o 这样默认生成a.out
 
-![img](Photo/29326.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/29326.jpg)
 
 最后我们再看下这个过程中产生的所有文件，如下：
 
-![img](Photo/20424.jpg)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/20424.jpg)
 
 ### 1.3 总结
 
@@ -134,8 +134,6 @@ int main()
 Makefile描述了整个工程的编译、链接等规则，它定义了一系列规则来指定哪些文件需要编译以及如何编译、需要创建哪些库文件以及如何创建这些库文件、如何产生我们想要的可执行文件。
 
 而且Makefile可以有效的减少大工程中需要编译和链接的文件，只编译和链接那些需要修改的文件，可以说使用Makefile，整个工程都可以完全自动化编译。
-
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fr8ya1mzfmc.jpeg%253FimageView2%252F2%252Fw%252F1620)
 
 ### 2.2 Makefile基本格式
 
@@ -170,7 +168,7 @@ Makefile包含了五个重要的东西：显示规则、隐晦规则、变量定
 
 我们使用opencv对下面这只可爱的猫进行读取显示。
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fzbsiqb5362.jpeg%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/mao.jpeg)
 
 在这里我们用c++和opencv对图片进行读取和显示，程序保存在DisplayImage.cpp这个文件里，代码如下：
 
@@ -199,13 +197,13 @@ int main(int argc, char** argv)
 }
 ```
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fdra78zeo4e.jpeg%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261141665.jpeg)
 
 #### 2.4.2 Makefile编写
 
 上面我们已经准备好了.cpp文件，现在我们来编写Makefile进而进行编译，程序如下：
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fzkjel2s2u7.jpeg%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202212601.jpeg)
 
 现在我来解释下应该如何编写这个Makefile，对于编写Makefile我建议从下往上写。步骤如下：
 
@@ -213,29 +211,29 @@ int main(int argc, char** argv)
 
 这一步在Makefile中基本差不多，它的作用就是删除所有的.o文件和可执行文件。为什么这样做呢?我举个例子说明下，如果你有100个.cpp文件，经过编译后会得到一个可执行文件。在这个过程中我们会得到许多不必要的文件，例如100个.o文件，但这个文件又没有用，如果用rm的话那就太麻烦了，所以我们用了clean，它可以很轻松完成这个任务。另外请注意Makefile文件在执行时不会执行clean这个命令，需要我们调用才会执行，即make clean。clean代码如下：
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Ftoxce4bmir.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261141056.png)
 
 ##### 2.编写目标文件1：依赖文件1
 
 目标文件就是你想得到的文件，依赖文件就是你目前所拥有的东西。在本实例中我们现在拥有DisplayImage.cpp，所以DisplayImage.cpp是依赖文件，我们想得到DisplayImage.o，所以它是目标文件。代码如下：
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252F9uhaukclr.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202212603.png)
 
 ##### 3.编写目标文件2：依赖文件2
 
 这一步的依赖文件2实际就是第二步的目标文件1，在第二步我们通过DisplayImage.cpp得到了DisplayImage.o，现在我们需要通过DisplayImage.o得到可执行文件DisplayImage。所以在这一步目标文件是DisplayImage，依赖文件是DisplayImage.o，代码如下：
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fux2p3w4mp6.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202212602.png)
 
 ##### 4.应用opencv库和头文件
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fpdj8m2nudk.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261141980.png)
 
 这一步就需要根据自己计算机来配置了，对于我们初学者来说挺麻烦的，可以自己尝试下。有问题可以联系我们。
 
 编写完makefile后，我们在终端make下就行了。下面编译后的文件：
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Faf5lxq3nsg.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202212604.png)
 
 最后在终端输入下面代码即可显示图片。
 
@@ -259,7 +257,7 @@ int main(int argc, char** argv)
 
 如果你的界面如下图所示即说明安装成功。
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fcgr856d16g.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261141963.png)
 
 ### 3.2 CMake编译流程
 
@@ -301,7 +299,7 @@ add_executable( DisplayImage DisplayImage.cpp )
 target_link_libraries( DisplayImage ${OpenCV_LIBS} )
 ```
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fsjhvpyl6vc.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261141278.png)
 
 看到这些代码是不是很闷逼，为了让大家明白CMakeLists.txt文件内容，接下来我说一下Cmake的一些常用命令，你就能很好的理解上面的代码了。
 
@@ -369,7 +367,7 @@ https://cmake.org/cmake/help/v2.8.8/cmake.html#section_Commands
 
 现在CMakeLists.txt文件已经编写好了，意味着我们的工作即将进入尾声。现在看看我们的文件结构目录，如下图：
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Flnx8l7c3rg.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261142778.png)
 
 接下来我们就需要进行编译了。编译的过程相对于CMakeLists.txt文件的编写是很简单的，只有两步，如下
 
@@ -381,25 +379,25 @@ https://cmake.org/cmake/help/v2.8.8/cmake.html#section_Commands
 
 首先我们在命令行输入`cmake .`(注意cmake和.之间有空格)，表明Cmakelist.txt文件在当前目录下。
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fldlhxokdr8.jpeg%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261142827.jpeg)
 
 接下来在命令行输入`make`
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fm0g5yx81dm.jpeg%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261142829.jpeg)
 
 这样我们就编译成功了，我们看下编译后的文件目录
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fmjah4d2ro0.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261142414.png)
 
 解释下这个build文件夹，由于cmake后会生成很多编译的中间文件以及makefile文件，所以一般建议新建一个新的目录，专门用来编译，这就是这里的build，打开build后，里面的文件如下：
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fnjsw80g4v3.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261142811.png)
 
 到这里，我们不禁要问怎么没有图片显示呢，别急，在build目录下的命令行输入下面命令即可显示图片，这就是生产的DisplayImage可执行文件。
 
 ./DisplayImage ../01.jpg
 
-![img](Photo/filtersno_upscale()imageUrl=https%253A%252F%252Fcubox.pro%252Fc%252Ffilters%253Ano_upscale()%253FimageUrl%253Dhttps%253A%252F%252Fask.qcloudimg.com%252Fhttp-save%252Fyehe-1508658%252Fldkfuqy0y9.png%253FimageView2%252F2%252Fw%252F1620)
+![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202201261142688.png)
 
 到这里，关于CMake的一些基本操作就介绍的差不多了，其实对于CMake的学习我认为必须在实例中多加应用，才能更好的掌握，因为它的复杂命令太多了。
 

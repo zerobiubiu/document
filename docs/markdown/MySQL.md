@@ -154,21 +154,22 @@ update mysql.user set authentication_string=password('123456') where user='root'
 3. 打开链接数据库
 
 4. 新建数据库
-   ![image-20210728145348581](photo/image-20210728145348581.png)
+   ![image-20210728145348581](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-202107281453.png)
    默认采用
-   <img src="photo/image-20210728145509344.png"/>
-
+   
+   ![](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20210728145509344.png)
+   
 5. 新建一张表 student
    > 字段： id、name、age
 
-   ![image-20210728150546128](photo/image-20210728150546128.png)
-   ![image-20210728151331062](photo/image-20210728151331062.png)
+   ![image-20210728150546128](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20210728150546128.png)
+   ![image-20210728151331062](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20210728151331062.png)
 
 6. 查看表
-   ![image-20210728151539966](photo/image-20210728151539966.png)
+   ![image-20210728151539966](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20210728151539966.png)
 
 7. 修改表
-   ![image-20210728151918986](photo/image-20210728151918986.png)
+   ![image-20210728151918986](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20210728151918986.png)
 
 ### 1.7、连接数据库
 
@@ -760,7 +761,7 @@ SELECT `type` FROM `TABLE` WHERE `type` IS NOT NULL;    -- 查询不为空的
 
 > JOIN 对比
 
-![image-20210816210158096](photo/image-20210816210158096.png)
+![image-20210816210158096](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20210816210158096.png)
 
 ```sql
 -- 在多表查询时，ON和where都表示筛选条件，on先执行，where后执行。

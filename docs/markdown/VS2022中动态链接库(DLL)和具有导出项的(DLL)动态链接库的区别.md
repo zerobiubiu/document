@@ -1,6 +1,6 @@
 # VS2022中动态链接库(DLL)和具有导出项的(DLL)动态链接库的区别
 
-![image-20220120124852882](Photo/image-20220120124852882.png)
+![image-20220120124852882](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20220120124852882.png)
 
 ## 区别
 

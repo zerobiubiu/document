@@ -6,7 +6,7 @@
 
 ## 第一步生成密钥
 
-执行`ssh-keygen -t rsa`命令，无论是cmd还是power shell都可以得到以下结果![image-20210214191444284](photo/image-20210214191444284.png)
+执行`ssh-keygen -t rsa`命令，无论是cmd还是power shell都可以得到以下结果![image-20210214191444284](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20210214191444284.png)
 
 不需要管干嘛的，按4下回车就可以。
 

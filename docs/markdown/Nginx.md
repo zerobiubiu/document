@@ -18,9 +18,9 @@
 
 > Http代理，反向代理：作为web服务器最常用的功能之一，尤其是反向代理。
 
-正向代理![image-20211129231030882](Photo/image-20211129231030882.png)
+正向代理![image-20211129231030882](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20211129231030882.png)
 
-反向代理![image-20211129231213541](Photo/image-20211129231213541.png)
+反向代理![image-20211129231213541](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20211129231213541.png)
 
 ### **2、负载均衡**
 
@@ -30,19 +30,19 @@
 >
 > 扩展策略，就天马行空，只有你想不到的没有他做不到的。
 
-轮询![image-20211129231447493](Photo/image-20211129231447493.png)
+轮询![image-20211129231447493](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20211129231447493.png)
 
-加权轮询![image-20211129231523746](Photo/image-20211129231523746.png)
+加权轮询![image-20211129231523746](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20211129231523746.png)
 
 > IP hash对客户端请求的IP进行hash操作，然后根据hash结果将同一-个客户端ip的请求分发给同一台服务器进行处理，可以解决session不共享的问题。
 
-![image-20211129231750756](Photo/image-20211129231750756.png)
+![image-20211129231750756](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20211129231750756.png)
 
 ### **3、动静分离**
 
 > 动静分离，在我们的软件开发中，有些请求是需要后台处理的，有些请求是不需要经过后台处理的(如: CSS、HTML、jpg、js等等文件)，这些不需要经过后台处理的文件称为静态文件。让动态网站里的动态网页根据一定规则把不变的资源和经常变的资源区分开来，动静资源做好了拆分以后，我们就可以根据静态资源的特点将其做缓存操作。提高资源响应的速度。
 
-![image-20211129232547078](Photo/image-20211129232547078.png)
+![image-20211129232547078](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20211129232547078.png)
 
 # Nginx安装
 
@@ -70,7 +70,7 @@ Linux下载![image-20211129235900674](Photo/image-20211129235900674.png)
 
 **Windows解压下载的包
 
-![image-20211130001016803](Photo/image-20211130001016803.png)
+![image-20211130001016803](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20211130001016803.png)
 
 出现以上目录即可，nginx.exe就是可执行文件，conf为配置文件目录，运行nginx.exe即可运行服务
 
@@ -119,7 +119,7 @@ Linux下载![image-20211129235900674](Photo/image-20211129235900674.png)
 
 可以使用`whereis nginx`命令查找Nginx的执行目录所在
 
-![image-20211130000723562](Photo/image-20211130000723562.png)
+![image-20211130000723562](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/image-20211130000723562.png)
 
 Nginx的执行文件放在了sbin/目录下，执行nginx文件，成功无返回值
 
