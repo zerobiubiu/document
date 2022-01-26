@@ -20,6 +20,8 @@
 
 [Git](./markdown/Git.md)
 
+[Git工作原理](./markdown/Git工作原理.md)
+
 [CMake](./markdown/CMake简介.md)
 
 [Make](./markdown/Make.md)
