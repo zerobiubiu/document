@@ -50,6 +50,7 @@
 
 [VScode插件](./markdown/VScode.md)
 
-[56个JavaScript 实用工具函数](./markdown/56个JavaScript 实用工具函数.md)
+[56个JavaScript函数](./markdown/56个JavaScript函数.md)
 
 [C语言文件操作函数](./markdown/C语言文件操作相关函数.md)
+
