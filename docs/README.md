@@ -28,7 +28,7 @@
 
 [Qt](./markdown/Qt.md)
 
-[Visual Studio快捷键](./markdown/Visual Studio快捷键.md)
+[Visual Studio快捷键](./markdown/Visual_Studio快捷键.md)
 
 [VS2022中动态链接库(DLL)和具有导出项的(DLL)动态链接库的区别](./markdown/VS2022中动态链接库(DLL)和具有导出项的(DLL)动态链接库的区别.md)
 
