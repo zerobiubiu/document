@@ -42,6 +42,12 @@
 
 [Systemd 教程](./markdown/Systemd.md)
 
+[forever 教程](./markdown/forever.md)
+
+[nodemon 教程](./markdown/nodemon.md)
+
+[pm2 教程](./markdown/pm2.md)
+
 ## 参考文档
 
 [Git 工作原理](./markdown/Git工作原理.md)

@@ -235,7 +235,7 @@ Tmux 比 Screen 功能更多、更强大，它的基本用法如下。
 
 ## 八、Node 工具
 
-对于 Node 应用来说，可以不用上面的方法，有一些专门用来启动的工具：[forever](https://github.com/foreverjs/forever)，[nodemon](http://nodemon.io/) 和 [pm2](http://pm2.keymetrics.io/)。
+对于 Node 应用来说，可以不用上面的方法，有一些专门用来启动的工具：[forever](./forever.md)，[nodemon](./nodemon.md)和[pm2](./pm2.md)
 
 forever 的功能很简单，就是保证进程退出时，应用会自动重启。
 
