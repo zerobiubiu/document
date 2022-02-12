@@ -35,7 +35,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/bg2013081703.png)
 
-由于init是第一个运行的程序，它的进程编号（pid）就是1。其他所有进程都从它衍生，都是它的子进程。
+由于[init](./init.md)是第一个运行的程序，它的进程编号（pid）就是1。其他所有进程都从它衍生，都是它的子进程。
 
 **第三步、确定运行级别**
 

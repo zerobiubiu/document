@@ -147,13 +147,8 @@ K16abrtd         K74acpid           K84NetworkManager    K89rdisc           S01r
 
 像rc6.d目录中基本都是要关闭的进程，只有S00killall和S01reboot这两个要启动的进程他们分别是结束所有进程和重启系统。这里文件中的数字代表了他们的优先级，数字越小优先启动。所以我们自己做的服务放在这个目录中时要谨慎以免因为他所需的关联程序没有启动而导致进程无法启动。
 PS:如果真的不小心把init默认运行级别设置为0或6的解决办法
-我们知道init0和6级别分别对应的是关机和重启，如果把这两个设为默认运行级别我们是无法进入系统的，所以我们就要借助救援系统了，在开机GRUB界面按e如下:
-![浅谈init进程_进程](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/229e25153e9c4b03d9cda3355ce1216a.png)
+我们知道init0和6级别分别对应的是关机和重启，如果把这两个设为默认运行级别我们是无法进入系统的，所以我们就要借助救援系统了，在开机GRUB界面按e
 选择kernel这行接着按e
-![浅谈init进程_init_02](http://i2.51cto.com/images/blog/201804/19/e13e274dbfe5ac2ce41029fe595bac93.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
 在命令行最后输入1（进入单用户模式），回车退后到上个界面
-![浅谈init进程_Linuxinit_03](http://i2.51cto.com/images/blog/201804/19/b76c1a8f9a165f85dd806588ebabbf4a.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
 接着按b进入单用户模式，我们这就进入到单用户模式了
-![浅谈init进程_进程_04](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/77f56f7eeaf8d757cfd4d815c8091588.png)
 我们只需要进入/etc/inittab配置文件中把最后的0或6改为3，重启系统就可以啦
-![浅谈init进程_进程_05](http://i2.51cto.com/images/blog/201804/19/3b63444b848949446682e5548962dd3c.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
