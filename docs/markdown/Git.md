@@ -1,6 +1,10 @@
-# Git教程
+# Git
 
-所有命令均默认在Git Bash工具下执行
+> 所有命令均默认在Git Bash工具下执行
+
+## Git原理教程
+
+[Git 工作原理](./Git工作原理.md)
 
 ## Git的GUI版本
 

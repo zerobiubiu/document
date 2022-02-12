@@ -268,5 +268,3 @@ f参数，表示SSH连接成功后，转入后台运行。这样一来，你就�
 　　* WikiBooks: [Internet Technologies/SSH](https://en.wikibooks.org/wiki/Internet_Technologies/SSH)
 
 　　* Buddhika Chamith: [SSH Tunneling Explained](https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/)
-
-（完）

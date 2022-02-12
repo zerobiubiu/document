@@ -306,5 +306,3 @@ Tmux 可以将窗口分成多个窗格（pane），每个窗格运行不同的�
 - [A Quick and Easy Guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
 - [Tactical tmux: The 10 Most Important Commands](https://danielmiessler.com/study/tmux/)
 - [Getting started with Tmux](https://linuxize.com/post/getting-started-with-tmux/)
-
-（完）

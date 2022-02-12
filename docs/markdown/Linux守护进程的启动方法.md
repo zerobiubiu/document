@@ -164,7 +164,7 @@ Linux系统是这样设计的。
 
 ## 七、Screen 命令与 Tmux 命令
 
-另一种思路是使用 terminal multiplexer （终端复用器：在同一个终端里面，管理多个session），典型的就是 [Screen](./markdown/screen.md) 命令和 [Tmux](./markdown/tmux.md) 命令。
+另一种思路是使用 terminal multiplexer （终端复用器：在同一个终端里面，管理多个session），典型的就是 [Screen](./screen.md) 命令和 [Tmux](./tmux.md) 命令。
 
 它们可以在当前 session 里面，新建另一个 session。这样的话，当前 session 一旦结束，不影响其他 session。而且，以后重新登录，还可以再连上早先新建的 session。
 
@@ -315,4 +315,4 @@ pm2 的功能最强大，除了重启进程以外，还能实时收集日志和�
 
 ## 十、Systemd
 
-除了专用工具以外，Linux系统有自己的守护进程管理工具 [Systemd](./markdown/Systemd.md) 。它是操作系统的一部分，直接与内核交互，性能出色，功能极其强大。我们完全可以将程序交给 Systemd ，让系统统一管理，成为真正意义上的系统服务。
+除了专用工具以外，Linux系统有自己的守护进程管理工具 [Systemd](./Systemd.md) 。它是操作系统的一部分，直接与内核交互，性能出色，功能极其强大。我们完全可以将程序交给 Systemd ，让系统统一管理，成为真正意义上的系统服务。

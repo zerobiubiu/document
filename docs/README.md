@@ -1,6 +1,6 @@
 # All my documents
 
-## 前端：
+## 学习文档
 
 [HTML 学习文档](./markdown/HTML学习.md)
 
@@ -8,63 +8,49 @@
 
 [JavaScript 学习文档](./markdown/JavaScript.md)
 
-## 后端：
+[MySQL 学习文档](./markdown/MySQL.md)
 
-[Nginx 教程](./markdown/Nginx.md)
+[Qt 学习文档](./markdown/Qt.md)
 
 [Node.js 学习文档](./markdown/Node.js.md)
 
-[Python 教程](./markdown/Python.md)
+[Linux 学习文档](./markdown/Linux学习.md)
 
-## 工具：
+## 使用文档
 
-[Git 教程](./markdown/Git.md)
-
-[Git 工作原理](./markdown/Git工作原理.md)
-
-[CMake 教程](./markdown/CMake简介.md)
-
-[Make 教程](./markdown/Make.md)
+[Gcc 文档](./markdown/Gcc.md)
 
 [cJSON 文档](./markdown/cJson文档.md)
-
-### SSH
-
-[密钥SSH登录](./markdown/密钥SSH登录.md)
-
-[SSH原理与运用](./markdown/SSH原理与运用.md)
-
-### Shell多窗口，终端复用
-
-**文档：**
 
 [screen 文档](./markdown/screen.md)
 
 [tmux 文档](./markdown/tmux.md)
 
-**教程：**
+## 教程
 
-[tmux 使用教程](./markdown/tmux教程.md)
+[CMake 教程](./markdown/CMake简介.md)
 
-## 系统：
+[Make 教程](./markdown/Make.md)
 
-[Linux 学习文档](./markdown/Linux学习.md)
+[Python 教程](./markdown/Python.md)
 
-### 守护进程
+[Nginx 教程](./markdown/Nginx.md)
+
+[Git 教程](./markdown/Git.md)
+
+[tmux 教程](./markdown/tmux教程.md)
+
+[Systemd 教程](./markdown/Systemd.md)
+
+## 参考文档
+
+[Git 工作原理](./markdown/Git工作原理.md)
+
+[密钥SSH登录](./markdown/密钥SSH登录.md)
+
+[SSH原理与运用](./markdown/SSH原理与运用.md)
 
 [Linux守护进程的启动方法](./markdown/Linux守护进程的启动方法.md)
-
-[Systemd 工具](./markdown/Systemd.md)
-
-## 核心：
-
-[MySQL 学习文档](./markdown/MySQL.md)
-
-[Gcc 文档](./markdown/Gcc.md)
-
-[Qt 学习文档](./markdown/Qt.md)
-
-## 碎片记录：
 
 [Visual Studio快捷键](./markdown/Visual_Studio快捷键.md)
 
