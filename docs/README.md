@@ -70,3 +70,7 @@
 
 [C语言文件操作函数](./markdown/C语言文件操作相关函数.md)
 
+[计算机是如何启动的](./markdown/计算机是如何启动的.md)
+
+[Linux 的启动流程](./markdown/Linux的启动流程.md)
+
