@@ -74,3 +74,5 @@
 
 [Linux 的启动流程](./markdown/Linux的启动流程.md)
 
+[init 进程](./markdown/init.md)
+
