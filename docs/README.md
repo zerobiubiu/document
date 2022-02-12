@@ -96,3 +96,6 @@
 [数字签名是什么](./markdown/数字签名.md)
 
 [密码学](./markdown/密码学.md)
+
+[搜索引擎抓取AJAX内容](./markdown/搜索引擎抓取AJAX内容.md)
+
