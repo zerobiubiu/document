@@ -2,6 +2,21 @@
 
 [**Unix 哲学**](./markdown/Unix哲学.md)
 
+> 文章来源
+>
+> 1. 我自己写的
+> 2. 收集的文档
+>
+> 文件格式均为[markdown](https://baike.baidu.com/item/markdown/3245829?fr=aladdin)
+>
+> 基于[docsify](https://docsify.js.org/#/)的界面、图床来自[Github](https://github.com/)、[jsDelivr](https://www.jsdelivr.com/)加速图床
+>
+> 采用阿里云服务器在[nginx](http://nginx.org/)部署，通过阿里云CDN转发
+>
+> 另[GitHub pages](http://zerobiubiu.github.io/document/#/)托管
+>
+> 侵删
+
 ## 学习文档
 
 [HTML 学习文档](./markdown/HTML学习.md)
@@ -77,4 +92,6 @@
 [Linux 的启动流程](./markdown/Linux的启动流程.md)
 
 [init 进程](./markdown/init.md)
+
+[数字签名是什么](./markdown/数字签名.md)
 
