@@ -1,5 +1,7 @@
 # All my documents
 
+[**Unix 哲学**](./markdown/Unix哲学.md)
+
 ## 学习文档
 
 [HTML 学习文档](./markdown/HTML学习.md)
