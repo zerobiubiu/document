@@ -43,6 +43,10 @@
 
 [tmux 文档](./markdown/tmux.md)
 
+[Web API 文档](./markdown/WebAPI.md)
+
+[ES6 文档](./markdown/ES6.md)
+
 ## 教程
 
 [CMake 教程](./markdown/CMake简介.md)
@@ -67,13 +71,17 @@
 
 [C语言 教程](./markdown/C.md)
 
+[bash 教程](./markdown/bash教程.md)
+
 ## 参考文档
 
 [Git 工作原理](./markdown/Git工作原理.md)
 
-[密钥SSH登录](./markdown/密钥SSH登录.md)
+[密钥SSH登录Linux](./markdown/密钥SSH登录.md)
 
 [SSH原理与运用](./markdown/SSH原理与运用.md)
+
+[SSH 基本知识](./markdown/SSH基本知识.md)
 
 [Linux守护进程的启动方法](./markdown/Linux守护进程的启动方法.md)
 
