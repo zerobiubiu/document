@@ -73,6 +73,8 @@
 
 [bash 教程](./markdown/bash教程.md)
 
+[HTML 教程](./markdown/HTML教程.md)
+
 ## 参考文档
 
 [Git 工作原理](./markdown/Git工作原理.md)
