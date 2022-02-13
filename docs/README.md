@@ -65,6 +65,8 @@
 
 [pm2 教程](./markdown/pm2.md)
 
+[C语言 教程](./markdown/C.md)
+
 ## 参考文档
 
 [Git 工作原理](./markdown/Git工作原理.md)
