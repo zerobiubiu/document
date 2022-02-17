@@ -58,13 +58,13 @@
 | Source Code        | 源码   |
 | Pre-Built Packages | 依赖包 |
 
-**PGP**是加密密钥
+**PGP**是加密密钥![image-20220217220854832](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202202172208870.png)
 
-更新说明![image-20211129234332499](Photo/image-20211129234332499.png)
+更新说明![image-20220217220803488](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202202172208534.png)
 
-Windows下载![image-20211129234216544](Photo/image-20211129234216544.png)
+Windows下载![image-20220217220822306](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202202172208340.png)
 
-Linux下载![image-20211129235900674](Photo/image-20211129235900674.png)
+Linux下载![image-20220217220838285](https://cdn.jsdelivr.net/gh/zerobiubiu/Figure-bed/202202172208318.png)
 
 ## 2、安装
 
@@ -87,13 +87,13 @@ Linux下载![image-20211129235900674](Photo/image-20211129235900674.png)
 
 > 执行**configure**时报错
 >
-> 
+>
 >
 > ./configure: error: the HTTP rewrite module requires the PCRE library.
 > 安装pcre-devel解决问题
 > yum -y install pcre-devel
 >
-> 
+>
 >
 > 错误提示：./configure: error: the HTTP cache module requires md5 functions
 > from OpenSSL library.   You can either disable the module by using
@@ -103,7 +103,7 @@ Linux下载![image-20211129235900674](Photo/image-20211129235900674.png)
 > 解决办法：
 > yum -y install openssl openssl-devel
 >
->  
+>
 >
 > 总结：
 >
@@ -153,45 +153,26 @@ Nginx的执行文件放在了sbin/目录下，执行nginx文件，成功无返�
 
 连接失败、修改防火墙
 
-> 1. # 开启
->
-> 2. `service firewalld start`
->
-> 3. # 重启
->
-> 4. `service firewalld restart`
->
-> 5. # 关闭
->
-> 6. `service firewalld stop`
->
-> 7. # 查看防火墙规则
->
-> 8. `firewall-cmd --list-all`
->
-> 9. # 查询端口是否开放
->
-> 10. `firewall-cmd --query-port=8080/tcp`
->
-> 11. # 开放80端口
->
-> 12. `firewall-cmd --permanent --add-port=80/tcp`
->
-> 13. # 移除端口
->
-> 14. `firewall-cmd --permanent --remove-port=8080/tcp`
->
-> 15. # 重启防火墙(修改配置后要重启防火墙)
->
-> 16. `firewall-cmd --reload`
->
-> 17. # 参数解释
->
-> 18. `firwall-cmd：是Linux提供的操作firewall的一个工具；`
->
-> 19. `--permanent：表示设置为持久；`
->
-> 20. `--add-port：标识添加的端口；`
+1. 开启
+2. `service firewalld start`
+3. 重启
+4. `service firewalld restart`
+5. 关闭
+6. `service firewalld stop`
+7. 查看防火墙规则
+8. `firewall-cmd --list-all`
+9. 查询端口是否开放
+10. `firewall-cmd --query-port=8080/tcp`
+11. 开放80端口
+12. `firewall-cmd --permanent --add-port=80/tcp`
+13. 移除端口
+14. `firewall-cmd --permanent --remove-port=8080/tcp`
+15. 重启防火墙(修改配置后要重启防火墙)
+16. `firewall-cmd --reload`
+17. 参数解释
+18. `firwall-cmd：是Linux提供的操作firewall的一个工具；`
+19. `--permanent：表示设置为持久；`
+20. `--add-port：标识添加的端口；`
 
 ## 5、编译安装配置模块
 
