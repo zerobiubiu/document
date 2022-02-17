@@ -44,7 +44,7 @@
 
 使用 `Docker` 可以通过定制应用镜像来实现持续集成、持续交付、部署。开发人员可以通过 Dockerfile 来进行镜像构建，并结合 [持续集成(Continuous Integration)](https://en.wikipedia.org/wiki/Continuous_integration) 系统进行集成测试，而运维人员则可以直接在生产环境中快速部署该镜像，甚至结合 [持续部署(Continuous Delivery/Deployment)](https://en.wikipedia.org/wiki/Continuous_delivery) 系统进行自动部署。
 
-而且使用 [`Dockerfile`](../image/build.md) 使镜像构建透明化，不仅仅开发团队可以理解应用运行环境，也方便运维团队理解应用运行所需条件，帮助更好的生产环境中部署该镜像。
+而且使用 `Dockerfile` 使镜像构建透明化，不仅仅开发团队可以理解应用运行环境，也方便运维团队理解应用运行所需条件，帮助更好的生产环境中部署该镜像。
 
 ### 更轻松的迁移
 
@@ -131,7 +131,7 @@ Docker Registry 公开服务是开放给用户使用、允许用户管理镜像�
 
 开源的 Docker Registry 镜像只提供了 [Docker Registry API](https://docs.docker.com/registry/spec/api/) 的服务端实现，足以支持 `docker` 命令，不影响使用。但不包含图形界面，以及镜像维护、用户管理、访问控制等高级功能。
 
-除了官方的 Docker Registry 外，还有第三方软件实现了 Docker Registry API，甚至提供了用户界面以及一些高级功能。比如，[Harbor](https://github.com/goharbor/harbor) 和 [Sonatype Nexus](../repository/nexus3_registry.md)。
+除了官方的 Docker Registry 外，还有第三方软件实现了 Docker Registry API，甚至提供了用户界面以及一些高级功能。比如，[Harbor](https://github.com/goharbor/harbor) 和 Sonatype Nexus。
 
 # 安装 Docker
 
@@ -474,7 +474,7 @@ $ docker image rm $(docker image ls -q -f before=mongo:3.2)
 
 ## 利用 commit 理解镜像构成
 
->注意：如果您是初学者，您可以暂时跳过后面的内容，直接学习 [容器](../container) 一节。
+>注意：如果您是初学者，您可以暂时跳过后面的内容，直接学习 容器 一节。
 
 注意： `docker commit` 命令除了学习之外，还有一些特殊的应用场合，比如被入侵后保存现场等。但是，不要使用 `docker commit` 定制镜像，定制镜像应该使用 `Dockerfile` 来完成。如果你想要定制镜像请查看下一小节。
 
@@ -1630,7 +1630,7 @@ bin boot dev etc home lib lib64 media mnt opt proc root run sbin srv sys tmp usr
 
 当利用 `docker run` 来创建容器时，Docker 在后台运行的标准操作包括：
 
-* 检查本地是否存在指定的镜像，不存在就从 [registry](#访问仓库) 下载
+* 检查本地是否存在指定的镜像，不存在就从 registry 下载
 * 利用镜像创建并启动一个容器
 * 分配一个文件系统，并在只读的镜像层外面挂载一层可读写层
 * 从宿主主机配置的网桥接口中桥接一个虚拟接口到容器中去
@@ -1875,7 +1875,7 @@ Docker 允许通过外部访问容器或容器互联的方式来提供网络服�
 
 # 高级网络配置
 
-> 注意：本章属于 `Docker` 高级配置，如果您是初学者，您可以暂时跳过本章节，直接学习 [Docker Compose](#Docker Compose 项目) 一节。
+> 注意：本章属于 `Docker` 高级配置，如果您是初学者，您可以暂时跳过本章节，直接学习 Docker Compose 一节。
 
 本章将介绍 Docker 的一些高级网络配置和选项。
 
@@ -2313,7 +2313,7 @@ $ docker buildx build .
  => ...
 ```
 
-Buildx 使用 [BuildKit 引擎](##使用 `BuildKit` 构建镜像) 进行构建，支持许多新的功能，具体参考 [Buildkit](##使用 `BuildKit` 构建镜像) 一节。
+Buildx 使用 BuildKit 引擎 进行构建，支持许多新的功能，具体参考 Buildkit 一节。
 
 ### 官方文档
 
@@ -2321,7 +2321,7 @@ Buildx 使用 [BuildKit 引擎](##使用 `BuildKit` 构建镜像) 进行构建�
 
 ## 使用 buildx 构建多种系统架构支持的 Docker 镜像
 
-在之前的版本中构建多种系统架构支持的 Docker 镜像，要想使用统一的名字必须使用 [`$ docker manifest`](##构建多种系统架构支持的 Docker 镜像 -- docker manifest 命令详解) 命令。
+在之前的版本中构建多种系统架构支持的 Docker 镜像，要想使用统一的名字必须使用 `$ docker manifest` 命令。
 
 在 Docker 19.03+ 版本中可以使用 `$ docker buildx build` 命令使用 `BuildKit` 构建镜像。该命令支持 `--platform` 参数可以同时构建支持多种系统架构的 Docker 镜像，大大简化了构建步骤。
 
@@ -4230,7 +4230,7 @@ Kubernetes 校验节点可用依赖于 ID。在当前的版本中，有两个接
 
 #### 安装 containerd
 
-参考 [安装 Docker](../../install) 一节添加 apt/yum 源，之后执行如下命令。
+参考 安装 Docker 一节添加 apt/yum 源，之后执行如下命令。
 
 ```bash
 # debian 系
@@ -5331,7 +5331,7 @@ jobs:
 
 在 Github 新建一个名为 `drone-demo` 的仓库。
 
-打开我们已经 [部署好的 Drone 网站](##部署 Drone) 或者 [Drone Cloud](https://cloud.drone.io)，使用 GitHub 账号登录，在界面中关联刚刚新建的 `drone-demo` 仓库。
+打开我们已经 部署好的 Drone 网站 或者 [Drone Cloud](https://cloud.drone.io)，使用 GitHub 账号登录，在界面中关联刚刚新建的 `drone-demo` 仓库。
 
 ### 编写项目源代码
 
@@ -5546,7 +5546,7 @@ $ docker-compose up -d
 
 * 使用 Dockerfile 创建镜像时候要添加 .dockerignore 文件或使用干净的工作目录。
 
-更多内容请查看 [Dockerfile 最佳实践](#Dockerfile 最佳实践)
+更多内容请查看 Dockerfile 最佳实践
 
 ### 碰到网络问题，无法 pull 镜像，命令行指定 http_proxy 无效？
 
@@ -5694,7 +5694,7 @@ lrwxrwxrwx. 1 root root 15 11月 17 13:43 docker -> /storage/docker
 
 ### Docker 能在非 Linux 平台（比如 Windows 或 macOS ）上运行么？
 
-答：完全可以。安装方法请查看 [安装 Docker](#安装 Docker) 一节
+答：完全可以。安装方法请查看 安装 Docker 一节
 
 ### 如何将一台宿主主机的 Docker 环境迁移到另外一台宿主主机？
 
@@ -5914,7 +5914,7 @@ Docker 命令有两大类，客户端命令和服务端命令。前者是主要�
 
 #### 使用多阶段构建
 
-在 `Docker 17.05` 以上版本中，你可以使用 [多阶段构建](# 多阶段构建) 来减少所构建镜像的大小。
+在 `Docker 17.05` 以上版本中，你可以使用 多阶段构建 来减少所构建镜像的大小。
 
 #### 避免安装不必要的包
 
@@ -5924,7 +5924,7 @@ Docker 命令有两大类，客户端命令和服务端命令。前者是主要�
 
 应该保证在一个容器中只运行一个进程。将多个应用解耦到不同容器中，保证了容器的横向扩展和复用。例如 web 应用应该包含三个容器：web应用、数据库、缓存。
 
-如果容器互相依赖，你可以使用 [Docker 自定义网络](# Docker 中的网络功能介绍) 来把这些容器连接起来。
+如果容器互相依赖，你可以使用 Docker 自定义网络 来把这些容器连接起来。
 
 #### 镜像层数尽可能少
 
